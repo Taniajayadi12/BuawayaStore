@@ -1,0 +1,63 @@
+ <?xml version="1.0"encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width "match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+        <Textview
+            android:layout_width="warp_content"
+            android:layout_height="warp _content"
+            android:text="Animalpedia"
+            android:textStyle="bold"
+            android:textColor=@color/desgn_default_color_primary_dark"
+            android:layout_marginBOttom="32sp"
+            />
+  <LinearLayout
+      android:layout_width="warp_cotent"
+      android:layout_hight="warp_content"
+      android:orientation="horizontal"/>
+
+  <ImageButon
+      android:id="@+id/btn buka_ras_kucing"
+      android:padding="16dp"
+      android:layout_margin="8dp"
+      android:layout_width="0dp"
+      android:layout_weight="1"
+      android:layout_height="150dp"
+      android:src="@drawing/dog_kintamani"
+      android:scaletype="fitcenter"
+       />
+  <Imagebutton
+     android:id="@+id/btn_buka_ras_anjing"
+     android:padding="60dp"
+     android:layout_margin="8"
+     android:layout_width="0dp"
+     android:layout_weight="1"
+     android:layout_heght="150dp"
+     android:src="@drawing/dog_kintamani"
+     android:scaleType="fitcenter"
+   />
+ <ImageButton
+     android:id="@+id/btn_buka_ras_tikus"
+     android:padding="60dp"
+     android:layout_margin="8dp"
+     android_wdth="0dp"
+     android_weight="1"
+     android_height="150dp"
+     android_src="@drawing/dog_kintamani"
+     anderoid_scaleType="fitCenter"
+     />
+ <TexView
+     android:layout_wdth="warp_content"
+     android:layout_heght="warp_content"
+     android:text="(tekan gambar untuk membuka galeri)"
+     android:textSyle="italic"
+     android:layout_marginBottom="32dp
+  </LiniarLayout
+
+</LinearLayout
